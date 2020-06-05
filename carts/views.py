@@ -59,7 +59,7 @@ class CartCreateView(TemplateView, APIView):
               'cart_price': cart.cart_price,
               'cart_count': cart_count}, status=status.HTTP_200_OK)
         except Exception as error:
-            print error
+            print(error)
 
 
 class CartDetailView(TemplateView):

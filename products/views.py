@@ -7,7 +7,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from django.db.models import Q
 
-import models, forms, mixins
+from . import models, forms, mixins
 
 # Create your views here.
 
@@ -46,7 +46,7 @@ class VariationListView(mixins.StaffRequiredMixin, ListView):
 
     def post(self, request, *args, **kwargs):
         formset = forms.VariationInventoryFormSet(request.POST)
-        print formset.is_valid()
+        print(formset.is_valid())
         if formset.is_valid():
             # formset.save(commit=False)
             for form in formset:
