@@ -58,6 +58,7 @@ INSTALLED_APPS = (
     'registration',
     'rest_framework',
     #my apps
+    'ecommerce',
     'newsletter',
     'products',
     'carts',
