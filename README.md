@@ -1,14 +1,13 @@
 # ecommerce-django
-Simple Ecommerce website built using Django
+Simple Ecommerce website built using Django for small school projects
 
 
-https://ekluv.herokuapp.com/
-
+https://droneshop.herokuapp.com/
 
 Checkout this repo, install dependencies, then start the server:
 
-    > git clone https://github.com/Ekluv/ecommerce-django.git
-    > cd ecommerce-django
+    > git clone https://github.com/XRotoX/ecommerce.git
+    > cd ecommerce
     > virtualenv .
     > source bin/activate
     > cd src
