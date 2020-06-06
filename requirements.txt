@@ -2,7 +2,7 @@ appdirs==1.4.3
 django>=1.11.29
 django-crispy-forms==1.4.0
 django-registration-redux==1.1
-djangorestframework==3.4.0
+djangorestframework==3.9.1
 gunicorn==19.7.0
 olefile==0.44
 packaging==16.8
