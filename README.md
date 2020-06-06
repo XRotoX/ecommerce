@@ -10,7 +10,6 @@ Checkout this repo, install dependencies, then start the server:
     > cd ecommerce
     > virtualenv .
     > source bin/activate
-    > cd src
     > pip install -r requirements.txt
     > python manage.py runserver
     
